@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="344.0" prefWidth="323.0" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="69.0" prefWidth="270.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="OPEN HOURS">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="월">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbMonOpen" fx:id="cbMonOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbMonClose" fx:id="cbMonClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkMonOff" fx:id="chkMonOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="화">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbTueOpen" fx:id="cbTueOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbTueClose" fx:id="cbTueClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkTueOff" fx:id="chkTueOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="수">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbWedOpen" fx:id="cbWedOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbWedClose" fx:id="cbWedClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkWedOff" fx:id="chkWedOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="목">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbThuOpen" fx:id="cbThuOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbThuClose" fx:id="cbThuClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkThuOff" fx:id="chkThuOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="금">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbFriOpen" fx:id="cbFriOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbFriClose" fx:id="cbFriClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkFriOff" fx:id="chkFriOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="토">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbSatOpen" fx:id="cbSatOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbSatClose" fx:id="cbSatClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkSatOff" fx:id="chkSatOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Label text="일">
+                     <font>
+                        <Font name="NanumSquareOTF ExtraBold" size="13.0" />
+                     </font></Label>
+                  <ComboBox id="cbSunOpen" fx:id="cbSunOpen" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <Label text="~" />
+                  <ComboBox id="cbSunClose" fx:id="cbSunClose" prefHeight="27.0" prefWidth="90.0" promptText="- 선택 -" />
+                  <CheckBox id="chkSunOff" fx:id="chkSunOff" mnemonicParsing="false" text="off" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button id="btnOk" fx:id="btnOk" layoutX="103.0" layoutY="359.0" mnemonicParsing="false" text="OK" />
+      <Button id="btnCancel" layoutX="163.0" layoutY="359.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>
